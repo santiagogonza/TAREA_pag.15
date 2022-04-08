@@ -8,11 +8,9 @@
 
 package ejercicio2;
 
-
-
 public class Principal {
 	private static Nombre nombre;
-	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		nombre = new Nombre();

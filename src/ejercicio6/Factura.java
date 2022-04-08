@@ -11,7 +11,7 @@ package ejercicio6;
 public class Factura {
 	private double iva= 16;
 	private double subtotal= 200;
-	//private double factura =15;
+	
 	public double getIva() {
 		return iva;
 	}
@@ -24,12 +24,7 @@ public class Factura {
 	public void setSubtotal(double subtotal) {
 		this.subtotal = subtotal;
 	}
-	/*public double getFactura() {
-		return factura;
-	}
-	public void setFactura(double factura) {
-		this.factura = factura;
-	}*/
+	
 	public double factu() {
 		return subtotal+(subtotal/100)*iva;
 	}

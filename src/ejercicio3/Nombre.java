@@ -2,14 +2,15 @@
  *  Autor:Gonzalo Santiago García						   
  Fecha_de_Imicio: 7 de abril del 2022				   
  Fecha_de_actualización: 7 /04/2022  				   
- Descripción: presenta los datos del nombre completo, la dirección y el número de teléfono en pantalla 
+ Descripción: se define las variables de nom, dir, telcel de tipo String
+ que tiene datos del nombre completo, la dirección y el número de teléfono 
   
  ******************************************************************************/
 
 package ejercicio3;
 
 public class Nombre {
-
+//delcaración de las variables de tipo String
 	private String nom = "Gonzalo Santiago Garcia";
 	private String dir = "San Mateo Mixtepec";
 	private String telcel = "9512376645";

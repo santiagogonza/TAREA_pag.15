@@ -14,7 +14,8 @@ public class Calculadora {
 	// definimos las variables y le asignamos los valores correspondientes
 	private double x = 144;
 	private double y = 999;
-
+	 
+	 // se declara los párametros de cada uuno de los métodos
 	public double getX() {
 		return x;
 	}

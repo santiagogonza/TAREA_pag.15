@@ -9,8 +9,11 @@
 package ejercicio2;
 
 public class Nombre {
+	// se de fine la variable de tipo String y le asignamos los datos
+	// correspondientes
 	private String nom = "Gonzalo Santiago Garcia";
 
+	// se de fine cada uno de los métodos de la variable nom
 	public String getNom() {
 		return nom;
 	}
@@ -19,6 +22,7 @@ public class Nombre {
 		this.nom = nom;
 	}
 
+	// se declara un párametro que imprimira el resultado final
 	public void imprimirNombre() {
 		System.out.println("El nombre es: " + getNom());
 

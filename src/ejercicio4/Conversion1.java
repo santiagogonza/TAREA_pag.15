@@ -10,6 +10,7 @@
 package ejercicio4;
 
 public class Conversion1 {
+	// declaramos las variables de tipo double ya asignandole los valores correspondientes 
 	private double euro = 100;
 	private double pesos= 21.91;
 	
